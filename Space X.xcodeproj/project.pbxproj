@@ -7,13 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		021AE043224C808C004EB057 /* YoutubeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021AE042224C808C004EB057 /* YoutubeService.swift */; };
+		021AE045224C83F5004EB057 /* DateFormatterUS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021AE044224C83F5004EB057 /* DateFormatterUS.swift */; };
+		021AE047224C855F004EB057 /* LaunchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021AE046224C855F004EB057 /* LaunchService.swift */; };
 		022B6972224C5981004502B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022B6971224C5981004502B1 /* AppDelegate.swift */; };
-		022B6974224C5981004502B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022B6973224C5981004502B1 /* ViewController.swift */; };
 		022B6977224C5981004502B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 022B6975224C5981004502B1 /* Main.storyboard */; };
 		022B6979224C5982004502B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 022B6978224C5982004502B1 /* Assets.xcassets */; };
 		022B697C224C5982004502B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 022B697A224C5982004502B1 /* LaunchScreen.storyboard */; };
 		022B6987224C5982004502B1 /* Space_XTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022B6986224C5982004502B1 /* Space_XTests.swift */; };
 		022B6992224C5982004502B1 /* Space_XUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022B6991224C5982004502B1 /* Space_XUITests.swift */; };
+		022B69A6224C5BD8004502B1 /* Launch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022B69A5224C5BD8004502B1 /* Launch.swift */; };
+		022B69AD224C5D67004502B1 /* ListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022B69AC224C5D67004502B1 /* ListController.swift */; };
+		022B69AF224C5D71004502B1 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022B69AE224C5D71004502B1 /* ListViewModel.swift */; };
+		022B69B3224C5DF7004502B1 /* LaunchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022B69B1224C5DF7004502B1 /* LaunchCell.swift */; };
+		022B69B4224C5DF7004502B1 /* LaunchCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 022B69B2224C5DF7004502B1 /* LaunchCell.xib */; };
+		028E1299224C8DCD0030CC3E /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028E1298224C8DCD0030CC3E /* Strings.swift */; };
+		028E129B224C91EA0030CC3E /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028E129A224C91EA0030CC3E /* DetailController.swift */; };
+		028E12A3224CA8FE0030CC3E /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028E12A2224CA8FE0030CC3E /* Colors.swift */; };
+		028E12A5224CB1AC0030CC3E /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028E12A4224CB1AC0030CC3E /* DetailViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +45,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		021AE042224C808C004EB057 /* YoutubeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeService.swift; sourceTree = "<group>"; };
+		021AE044224C83F5004EB057 /* DateFormatterUS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatterUS.swift; sourceTree = "<group>"; };
+		021AE046224C855F004EB057 /* LaunchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchService.swift; sourceTree = "<group>"; };
 		022B696E224C5981004502B1 /* Space X.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Space X.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		022B6971224C5981004502B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		022B6973224C5981004502B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		022B6976224C5981004502B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		022B6978224C5982004502B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		022B697B224C5982004502B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +60,15 @@
 		022B698D224C5982004502B1 /* Space XUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Space XUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		022B6991224C5982004502B1 /* Space_XUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Space_XUITests.swift; sourceTree = "<group>"; };
 		022B6993224C5982004502B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		022B69A5224C5BD8004502B1 /* Launch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Launch.swift; sourceTree = "<group>"; };
+		022B69AC224C5D67004502B1 /* ListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListController.swift; sourceTree = "<group>"; };
+		022B69AE224C5D71004502B1 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		022B69B1224C5DF7004502B1 /* LaunchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchCell.swift; sourceTree = "<group>"; };
+		022B69B2224C5DF7004502B1 /* LaunchCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LaunchCell.xib; sourceTree = "<group>"; };
+		028E1298224C8DCD0030CC3E /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		028E129A224C91EA0030CC3E /* DetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
+		028E12A2224CA8FE0030CC3E /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		028E12A4224CB1AC0030CC3E /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +96,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		021AE041224C8079004EB057 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				021AE042224C808C004EB057 /* YoutubeService.swift */,
+				021AE046224C855F004EB057 /* LaunchService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		022B6965224C5980004502B1 = {
 			isa = PBXGroup;
 			children = (
@@ -97,12 +128,14 @@
 		022B6970224C5981004502B1 /* Space X */ = {
 			isa = PBXGroup;
 			children = (
-				022B6971224C5981004502B1 /* AppDelegate.swift */,
-				022B6973224C5981004502B1 /* ViewController.swift */,
-				022B6975224C5981004502B1 /* Main.storyboard */,
-				022B6978224C5982004502B1 /* Assets.xcassets */,
-				022B697A224C5982004502B1 /* LaunchScreen.storyboard */,
-				022B697D224C5982004502B1 /* Info.plist */,
+				022B699F224C5A06004502B1 /* Application */,
+				022B69A3224C5A35004502B1 /* Common */,
+				028E12A7224CCB350030CC3E /* Controllers */,
+				022B69A4224C5B9E004502B1 /* Models */,
+				028E12A8224CCB3D0030CC3E /* ViewModels */,
+				028E12A6224CCB200030CC3E /* Views */,
+				022B69A1224C5A24004502B1 /* Storyboards */,
+				022B69A2224C5A2D004502B1 /* Supporting Files */,
 			);
 			path = "Space X";
 			sourceTree = "<group>";
@@ -123,6 +156,94 @@
 				022B6993224C5982004502B1 /* Info.plist */,
 			);
 			path = "Space XUITests";
+			sourceTree = "<group>";
+		};
+		022B699F224C5A06004502B1 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				022B6971224C5981004502B1 /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		022B69A1224C5A24004502B1 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				022B6975224C5981004502B1 /* Main.storyboard */,
+				022B697A224C5982004502B1 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		022B69A2224C5A2D004502B1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				022B6978224C5982004502B1 /* Assets.xcassets */,
+				022B697D224C5982004502B1 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		022B69A3224C5A35004502B1 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				028E12A1224CA8EB0030CC3E /* Extensions */,
+				021AE041224C8079004EB057 /* Services */,
+				021AE044224C83F5004EB057 /* DateFormatterUS.swift */,
+				028E1298224C8DCD0030CC3E /* Strings.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		022B69A4224C5B9E004502B1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				022B69A5224C5BD8004502B1 /* Launch.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		028E1295224C8B0E0030CC3E /* Launch Cell */ = {
+			isa = PBXGroup;
+			children = (
+				022B69B1224C5DF7004502B1 /* LaunchCell.swift */,
+				022B69B2224C5DF7004502B1 /* LaunchCell.xib */,
+			);
+			path = "Launch Cell";
+			sourceTree = "<group>";
+		};
+		028E12A1224CA8EB0030CC3E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				028E12A2224CA8FE0030CC3E /* Colors.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		028E12A6224CCB200030CC3E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				028E1295224C8B0E0030CC3E /* Launch Cell */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		028E12A7224CCB350030CC3E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				022B69AC224C5D67004502B1 /* ListController.swift */,
+				028E129A224C91EA0030CC3E /* DetailController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		028E12A8224CCB3D0030CC3E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				028E12A4224CB1AC0030CC3E /* DetailViewModel.swift */,
+				022B69AE224C5D71004502B1 /* ListViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +352,7 @@
 			files = (
 				022B697C224C5982004502B1 /* LaunchScreen.storyboard in Resources */,
 				022B6979224C5982004502B1 /* Assets.xcassets in Resources */,
+				022B69B4224C5DF7004502B1 /* LaunchCell.xib in Resources */,
 				022B6977224C5981004502B1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,8 +378,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				022B6974224C5981004502B1 /* ViewController.swift in Sources */,
+				022B69A6224C5BD8004502B1 /* Launch.swift in Sources */,
+				028E12A3224CA8FE0030CC3E /* Colors.swift in Sources */,
+				021AE043224C808C004EB057 /* YoutubeService.swift in Sources */,
+				021AE047224C855F004EB057 /* LaunchService.swift in Sources */,
+				028E129B224C91EA0030CC3E /* DetailController.swift in Sources */,
 				022B6972224C5981004502B1 /* AppDelegate.swift in Sources */,
+				028E1299224C8DCD0030CC3E /* Strings.swift in Sources */,
+				028E12A5224CB1AC0030CC3E /* DetailViewModel.swift in Sources */,
+				022B69AF224C5D71004502B1 /* ListViewModel.swift in Sources */,
+				022B69B3224C5DF7004502B1 /* LaunchCell.swift in Sources */,
+				021AE045224C83F5004EB057 /* DateFormatterUS.swift in Sources */,
+				022B69AD224C5D67004502B1 /* ListController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,7 +566,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GBTHA95GEH;
-				INFOPLIST_FILE = "Space X/Info.plist";
+				INFOPLIST_FILE = "Space X/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,7 +584,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GBTHA95GEH;
-				INFOPLIST_FILE = "Space X/Info.plist";
+				INFOPLIST_FILE = "Space X/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
